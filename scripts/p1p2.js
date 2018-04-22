@@ -21,4 +21,4 @@ var playerParam = {
   function play2() {
   pp1.destroy(); //destroying the existing player
   pp1 = OO.Player.create('container_1524368774', 'QyNDgzZjE6kTGgpMbhcn3rlD77TJ9lpQ', playerParam);
-});
+};
