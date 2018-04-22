@@ -13,7 +13,7 @@
     "accentColor":"#448aff"
   },
   "localization": {
-    "defaultLanguage": "es",
+    "defaultLanguage": "en",
     "availableLanguageFile": [
       {
         "language": "en",
@@ -79,7 +79,7 @@
       "color": "white",
       "opacity": 1
     },
-    "showTitle": true,
+    "showTitle": false,
     "showDescription": true,
     "titleFont": {
       "color": "white"
