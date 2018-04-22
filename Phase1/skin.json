@@ -97,7 +97,7 @@
       "color": "white",
       "opacity": 1
     },
-    "showTitle": true,
+    "showTitle": false,
     "showDescription": true,
     "infoPanelPosition": "topLeft",
     "screenToShowOnPause": "default"
