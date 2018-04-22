@@ -248,7 +248,6 @@
       {"name":"arrowsBlack", "location": "mainView", "whenDoesNotFit":"keep", "minWidth":45 }
     ],
     "desktopAd": [
-      {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
       {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":240 },
       {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
       {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
@@ -276,8 +275,6 @@
     ]
   },
   "icons": {
-    "play": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u003e", "fontStyleClass": "oo-icon oo-icon-play-slick"},
-    "pause": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0067", "fontStyleClass": "oo-icon oo-icon-pause-slick"},
     "volume": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0062", "fontStyleClass": "oo-icon oo-icon-volume-on-ooyala-default"},
     "volumeOff": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0070", "fontStyleClass": "oo-icon oo-icon-volume-mute-ooyala-default"},
     "expand": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0069", "fontStyleClass": "oo-icon oo-icon-system-fullscreen"},
