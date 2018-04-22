@@ -72,23 +72,6 @@
     "aspectRatio": "auto"
   },
   "startScreen": {
-    "promoImageSize": "default",
-    "showPlayButton": false,
-    "playButtonPosition": "center",
-    "playIconStyle": {
-      "color": "white",
-      "opacity": 1
-    },
-    "showTitle": false,
-    "showDescription": false,
-    "titleFont": {
-      "color": "white"
-    },
-    "descriptionFont": {
-      "color": "white"
-    },
-    "infoPanelPosition": "topLeft",
-    "showPromo": false
   },
   "pauseScreen": {
     "showPauseIcon": false,
