@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>00:13</title>
+    <title>00:26</title>
     <!-- Include plugins necessary for player -->
     <!-- Include the style sheet used by the player -->
     <link rel="stylesheet" href="//player.ooyala.com/static/v4/production/skin-plugin/html5-skin.min.css"/>
@@ -24,8 +24,17 @@
   </head>
   <body>
     <div id='container_1524368773' style='width:240px;height:136px;'></div>
+    <button id="play" class="control" style="margin:10px;padding:10px">Play</button>
+    <button id="pause" class="control" style="margin:10px;padding:10px">Pause</button>
     <!-- Player parameter modify some basic player behaviors and looks -->
     <script>
+      function ClickPlay() {
+        window.pp.play();
+      }
+      function ClickPause() {
+        window.pp.pause();
+      }
+
       var playerParam = {
         'pcode':'Jvd2wyOrkZVDS3BJWpnvUwEidYIO',
         'playerBrandingId':'f1f3a6490d6f480b91d0d152a863d3c5',
