@@ -233,12 +233,32 @@
   },
   "buttons": {
     "desktopContent": [
+      {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45},
+      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
+      {"name":"discovery", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+      {"name":"closedCaption", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+      {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
+      {"name":"stereoscopic", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
+      {"name":"audioAndCC", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
+      {"name":"arrowsBlack", "location": "mainView", "whenDoesNotFit":"keep", "minWidth":45 }
     ],
     "desktopAd": [
+      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
+      {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
+      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 }
     ],
     "mobileContent": [
+      {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45},
+      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
+      {"name":"discovery", "location":"moreOptions" },
+      {"name":"closedCaption", "location":"moreOptions" },
+      {"name":"stereoscopic", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
+      {"name":"audioAndCC", "location": "controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
+      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 }
     ],
     "mobileAd": [
+      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 }
     ]
   },
   "icons": {
