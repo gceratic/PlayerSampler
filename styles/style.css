@@ -1,0 +1,100 @@
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  color: white;
+  display:block;
+  padding: 12px;
+  font-style: bold;
+  font-family:sans-serif;
+  text-decoration: none;
+
+}
+
+.vertical-menu-btn1 {
+  background-color: #0B3C5D;
+}
+
+.vertical-menu-btn2 {
+  background-color: #328cc1;
+}
+
+.vertical-menu-btn3 {
+  background-color: #D9B310;
+}
+
+.vertical-menu-btn4 {
+  background-color: #1D2731;
+}
+
+.vertical-menu a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.vertical-menu a:active {
+  background-color: #000;
+  color: white;
+}
+
+#container_1524368773 {
+  width: 240px;
+  height: 136px;
+}
+
+#container_1524368774 {
+  width: 640px;
+  height: 360px;
+}
+
+#container_1524368775 {
+  width: 640px;
+  height: 360px;
+}
+
+#container_1524368776 {
+  width: 640px;
+  height: 360px;
+}
+
+#container_1524368777 {
+  width: 640px;
+  height: 360px;
+}
+
+.pHeader {
+  text-align: left;
+  margin: 0 0 80px;
+}
+
+.p1Body {
+  background-color: #0B3C5D;
+  color: white;
+}
+
+.p2Body {
+  background-color: #328cc1;
+  color: white;
+}
+
+.p3Body {
+  background-color: #D9B310;
+  color: white;
+}
+
+.p4Body {
+  background-color: #1D2731;
+  color: white;
+}
+
+.pFooter a {
+  text-align: left;
+  margin: 0 0 80px;
+  color: white;
+  display:block;
+  padding: 12px;
+  font-style: bold;
+  font-family:sans-serif;
+  text-decoration: none;
+}
