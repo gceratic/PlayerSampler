@@ -233,34 +233,12 @@
   },
   "buttons": {
     "desktopContent": [
-      {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45},
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"discovery", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"closedCaption", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
-      {"name":"stereoscopic", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"audioAndCC", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"arrowsBlack", "location": "mainView", "whenDoesNotFit":"keep", "minWidth":45 }
     ],
     "desktopAd": [
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 }
     ],
     "mobileContent": [
-      {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45},
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"discovery", "location":"moreOptions" },
-      {"name":"closedCaption", "location":"moreOptions" },
-      {"name":"stereoscopic", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
-      {"name":"audioAndCC", "location": "controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 }
     ],
     "mobileAd": [
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"fullscreen", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 }
     ]
   },
   "icons": {
@@ -270,7 +248,6 @@
     "cc": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006B", "fontStyleClass": "oo-icon oo-icon-cc"},
     "stereoscopic": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0057", "fontStyleClass": "oo-icon"},
     "discovery": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006C", "fontStyleClass": "oo-icon oo-icon-discovery-binoculars"},
-    "quality": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006D", "fontStyleClass": "oo-icon oo-icon-bitrate"},
     "setting": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006E", "fontStyleClass": "oo-icon oo-icon-system-settings"},
     "dismiss": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0065", "fontStyleClass": "oo-icon oo-icon-system-close"},
     "toggleOn": {"fontFamilyName": "fontawesome", "fontString": "\uf205", "fontStyleClass": ""},
