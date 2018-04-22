@@ -13,8 +13,8 @@ var playerParam = {
 
   var pp1 = null;
   pp1 = OO.Player.create('container_1524368774', 'V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4', playerParam);
-  var pp2 = document.getElementById("pp2"); //player2 being the <div ID> of the "thumbnail".
-  pp2.onclick = play2; //when the thumbnail is clicked, call pla22() function
+  var pp2 = document.getElementById("pThumbnail"); //player2 being the <div ID> of the "thumbnail".
+  pp2.onclick = play2(); //when the thumbnail is clicked, call pla22() function
 
    });
 
