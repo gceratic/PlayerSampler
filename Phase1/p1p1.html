@@ -23,14 +23,14 @@
     <!-- The following div will contain the instantiated player, and is identified by id -->
   </head>
   <body>
-    <div id='container_1524368773' style='width:240px;height:136px;'>
-      <button id="play" class="control" style="margin:10px;padding:10px">Play</button>
-      <button id="pause" class="control" style="margin:10px;padding:10px">Pause</button>
-    </div>
+    <div id='container_1524368773' style='width:240px;height:136px;'></div>
     <br>
     <br>
     <br>
     <br>
+    <button id="play" class="control" style="margin:10px;padding:10px">Play</button>
+    <button id="pause" class="control" style="margin:10px;padding:10px">Pause</button>
+
     <!-- Player parameter modify some basic player behaviors and looks -->
     <script>
       function ClickPlay() {
@@ -39,7 +39,8 @@
       function ClickPause() {
         window.pp.pause;
       }
-
+      var obj = document.getElementsByClassName('oo-interactive-container');
+      obj.style.display = (obj.style.display=='none') ? 'block' : 'none';
       var playerParam = {
         'pcode':'Jvd2wyOrkZVDS3BJWpnvUwEidYIO',
         'playerBrandingId':'f1f3a6490d6f480b91d0d152a863d3c5',
