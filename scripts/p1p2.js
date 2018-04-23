@@ -5,7 +5,10 @@
          "autoplay": false,
          "loop": false,
          "playlistsPlugin": {"data":["5f048115febc49ec9056375198fe2e6e"]},
-         "useFirstVideoFromPlaylist": true
+         "useFirstVideoFromPlaylist": true,
+         'skin': {
+                 'config': '../scripts/p1p1.json'
+               }
        };
        window.ooPlayer = OO.Player.create("container_1524368774", "QyNDgzZjE6kTGgpMbhcn3rlD77TJ9lpQ", playerParam);
      });
