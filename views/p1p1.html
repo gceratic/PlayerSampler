@@ -29,9 +29,9 @@
     <br>
     <button id="btnPlay" type="button" class="control" onclick="ClickPlay()">Play</button>
     <button id="btnPause" type="button" class="control" onclick="ClickPause()">Pause</button>
-    <button id="btnVolh" type="button" class="control" >Vol +</button>
-    <button id="btnVoll" type="button" class="control" >Vol -</button>
-    <button id="btnVoloff" type="button" class="control" onclick="ClickPause()">Vol off</button>
+    <button id="btnVolh" type="button" class="control" onClick="setVolume(true)" >Vol +</button>
+    <button id="btnVoll" type="button" class="control" onClick="setVolume(false)" >Vol -</button>
+    <button id="btnVoloff" type="button" class="control" onclick="mute()">Vol off</button>
     <footer class="pFooter">
       <a href="../index.html">&#60;--- Home</a>
     </footer>
