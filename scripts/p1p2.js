@@ -1,4 +1,3 @@
-
      OO.ready(function() {
        var playerParam = {
          "pcode": "Jvd2wyOrkZVDS3BJWpnvUwEidYIO",
@@ -8,5 +7,5 @@
          "playlistsPlugin": {"data":["5f048115febc49ec9056375198fe2e6e"]},
          "useFirstVideoFromPlaylist": true
        };
-       window.ooPlayer = OO.Player.create("container_1524368774", "", playerParam);
+       window.ooPlayer = OO.Player.create("container_1524368774", "QyNDgzZjE6kTGgpMbhcn3rlD77TJ9lpQ", playerParam);
      });
