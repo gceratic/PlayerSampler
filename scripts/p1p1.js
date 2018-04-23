@@ -38,8 +38,8 @@ function ClickPlay() {
   startpause.disabled = false;
   startpause.onclick = ClickPause;
 var btnVolUp = document.getElementById('btnvolh');
-btnVolUp.onClick = setVolumen(true);
+btnVolUp.onClick = setVolume(true);
 
 
 var btnVolUp = document.getElementById('btnvoll');
-btnVolUp.onClick = setVolumen(false);  });
+btnVolUp.onClick = setVolume(false);  });
