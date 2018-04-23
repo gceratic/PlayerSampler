@@ -20,6 +20,15 @@ function ClickPlay() {
 		window.pp.setVolume(window.pp.getVolume()-volumeRange);
 	}
 }
+function mute()
+{
+	window.pp.mute();
+}
+
+function mute()
+{
+	window.pp.unmute();
+}
   var playerParam = {
     'pcode':'Jvd2wyOrkZVDS3BJWpnvUwEidYIO',
     'playerBrandingId':'f1f3a6490d6f480b91d0d152a863d3c5',
@@ -37,9 +46,14 @@ function ClickPlay() {
   var startpause = document.getElementById('btnPause');
   startpause.disabled = false;
   startpause.onclick = ClickPause;
-var btnVolUp = document.getElementById('btnvolh');
-btnVolUp.onClick = setVolume(true);
+var btnVolh = document.getElementById('btnVolh');
+btnVolh.onClick = setVolume(true);
 
 
-var btnVolUp = document.getElementById('btnvoll');
-btnVolUp.onClick = setVolume(false);  });
+var btnVoll = document.getElementById('btnVoll');
+btnVoll.onClick = setVolume(false);
+var btnVoloff = document.getElementById('btnVoloff');
+btnVoloff.onClick = mute();
+
+
+  });
