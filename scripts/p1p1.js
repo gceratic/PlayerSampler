@@ -1,5 +1,5 @@
 var volume = .5;
-var volumenRange = .1;  
+var volumeRange = .1;  
 function ClickPlay() {
     window.pp.play();
   }
@@ -12,12 +12,12 @@ function ClickPlay() {
 {
 	if(isUp)
 	{
-		window.pp.setVolumen(window.pp.getVolumen()+volumenRange);
+		window.pp.setVolume(window.pp.getVolume()+volumeRange);
 	}
 	else
 	{
 		
-		window.pp.setVolumen(window.pp.getVolumen()-volumenRange);
+		window.pp.setVolume(window.pp.getVolume()-volumeRange);
 	}
 }
   var playerParam = {
