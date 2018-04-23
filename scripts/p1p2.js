@@ -5,11 +5,12 @@ var playerParam = {
   'useFirstVideoFromPlaylist': true,
   'autoplay':false,
   'loop':false,
-
+  'skin': {
+          'config': '../scripts/p1p2.json'
+        }
 };
 
 
   OO.ready(function() {
-
   var pp1 = OO.Player.create('container_1524368774', "", playerParam);
    });
