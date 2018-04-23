@@ -5,9 +5,7 @@ var playerParam = {
   'useFirstVideoFromPlaylist': true,
   'autoplay':false,
   'loop':false,
-  'skin': {
-          'config': '../scripts/p1p2.json'
-        }
+
 };
 
 
