@@ -15,8 +15,8 @@ function patch() {
   var title = document.getElementById('vidTitle').value;
   var myform = document.createElement("form");
   document.body.appendChild(myform);
-  document.write("https://api.ooyala.com/v2/assets/V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4{'name':"+title+"}?expires=1527087594&signature=HDr_FTTd7d928GhZzCW_rijL4qzOZOAHppjOnxtG&api_key=Jvd2wyOrkZVDS3BJWpnvUwEidYIO.BWS2E";");
+  document.write("https://api.ooyala.com/v2/assets/V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4{'name':"+title+"}?expires=1527087594&signature=HDr_FTTd7d928GhZzCW_rijL4qzOZOAHppjOnxtG&api_key=Jvd2wyOrkZVDS3BJWpnvUwEidYIO.BWS2E");
   myform.action = "https://api.ooyala.com/v2/assets/V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4{'name':"+title+"}?expires=1527087594&signature=HDr_FTTd7d928GhZzCW_rijL4qzOZOAHppjOnxtG&api_key=Jvd2wyOrkZVDS3BJWpnvUwEidYIO.BWS2E";
   myform.method = "PATCH";
-  myform.submit();
+  
 }
