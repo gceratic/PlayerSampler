@@ -74,7 +74,7 @@
   "startScreen": {
     "promoImageSize": "default",
     "showPlayButton": true,
-    "playButtonPosition": "center",
+    "playButtonPosition": "bottomRight",
     "playIconStyle": {
       "color": "white",
       "opacity": 1
@@ -92,13 +92,13 @@
   },
   "pauseScreen": {
     "showPauseIcon": true,
-    "pauseIconPosition": "center",
+    "pauseIconPosition": "bottomRight",
     "PauseIconStyle": {
       "color": "white",
       "opacity": 1
     },
-    "showTitle": true,
-    "showDescription": true,
+    "showTitle": false,
+    "showDescription": false,
     "infoPanelPosition": "topLeft",
     "screenToShowOnPause": "default"
   },
@@ -121,8 +121,8 @@
   "discoveryScreen": {
     "panelTitle": {
       "titleFont": {
-        "fontFamily": "Roboto Condensed",
-        "color": "white"
+        "fontFamily": "monospace",
+        "color": "yellow"
       }
     },
     "contentTitle": {
@@ -199,18 +199,18 @@
       "height": 24
     },
     "adScrubberBar": {
-      "backgroundColor": "rgba(175,175,175,1)",
-      "bufferedColor": "rgba(127,127,127,1)",
-      "playedColor": "rgba(255,63,128,1)",
-      "scrubberHandleColor": "rgba(67,137,255,1)",
-      "scrubberHandleBorderColor": "rgba(255,255,255,1)"
+      "backgroundColor": "rgba(0,0,0,0)",
+      "bufferedColor": "rgba(0,0,0,0)",
+      "playedColor": "rgba(0,0,0,0)",
+      "scrubberHandleColor": "rgba(0,0,0,0)",
+      "scrubberHandleBorderColor": "rgba(0,0,0,0)"
     },
     "scrubberBar": {
-      "backgroundColor": "rgba(175,175,175,0.5)",
-      "bufferedColor": "rgba(175,175,175,0.7)",
+      "backgroundColor": "rgba(1,1,1,1)",
+      "bufferedColor": "rgba(1,1,1,1)",
       "playedColor": "",
-      "scrubberHandleColor": "rgba(67,137,255,1)",
-      "scrubberHandleBorderColor": "rgba(255,255,255,1)",
+      "scrubberHandleColor": "rgba(1,1,1,1)",
+      "scrubberHandleBorderColor": "rgba(1,1,1,1)",
       "thumbnailPreview": true
     },
     "tooltips":{
