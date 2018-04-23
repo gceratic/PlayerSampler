@@ -11,9 +11,7 @@ var playerParam = {
 OO.ready(function() {window.pp = OO.Player.create('container_1524368776', 'V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4', playerParam);
 });
 
-function patch()
-{
+function patch(){
   [PATCH]/v2/assets/V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4{
-     "name":document.getElementById('vidTitle').value,
-  }
+     "name":document.getElementById('vidTitle').value,};
 }
