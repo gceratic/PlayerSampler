@@ -1,9 +1,25 @@
-  function ClickPlay() {
+var volume = .5;
+var volumenRange = .1;  
+function ClickPlay() {
     window.pp.play();
   }
   function ClickPause() {
     window.pp.pause();
   }
+function setVolume(var isUp)
+
+
+{
+	if(isUp)
+	{
+		window.pp.setVolumen(window.pp.getVolumen()+volumenRange);
+	}
+	else
+	{
+		
+		window.pp.setVolumen(window.pp.getVolumen()-volumenRange);
+	}
+}
   var playerParam = {
     'pcode':'Jvd2wyOrkZVDS3BJWpnvUwEidYIO',
     'playerBrandingId':'f1f3a6490d6f480b91d0d152a863d3c5',
@@ -21,4 +37,9 @@
   var startpause = document.getElementById('btnPause');
   startpause.disabled = false;
   startpause.onclick = ClickPause;
-  });
+var btnVolUp = document.getElementById('btnvolh');
+btnVolUp.onClick = setVolumen(true);
+
+
+var btnVolUp = document.getElementById('btnvoll');
+btnVolUp.onClick = setVolumen(false);  });
