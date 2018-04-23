@@ -25,7 +25,7 @@ function mute()
 	window.pp.mute();
 }
 
-function mute()
+function unmute()
 {
 	window.pp.unmute();
 }
@@ -46,14 +46,6 @@ function mute()
   var startpause = document.getElementById('btnPause');
   startpause.disabled = false;
   startpause.onclick = ClickPause;
-var btnVolh = document.getElementById('btnVolh');
-btnVolh.onClick = setVolume(true);
-
-
-var btnVoll = document.getElementById('btnVoll');
-btnVoll.onClick = setVolume(false);
-var btnVoloff = document.getElementById('btnVoloff');
-btnVoloff.onClick = mute();
 
 
   });
