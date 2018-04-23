@@ -10,7 +10,7 @@ function ClickPlay() {
 
 
 {
-	if(isUp)
+	if(isUp === true)
 	{
 		window.pp.setVolume(window.pp.getVolume()+volumeRange);
 	}
