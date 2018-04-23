@@ -6,7 +6,7 @@ function ClickPlay() {
   function ClickPause() {
     window.pp.pause();
   }
-function setVolume(var isUp)
+function setVolume(isUp)
 
 
 {
