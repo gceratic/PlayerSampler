@@ -6,7 +6,6 @@ var playerParam = {
   'skin': {
           'config': '../scripts/p3.json'
         }
-
 };
 OO.ready(function() {window.pp = OO.Player.create('container_1524368776', 'V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4', playerParam);
 });

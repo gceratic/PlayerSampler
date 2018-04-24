@@ -8,5 +8,14 @@ var playerParam = {
         }
 
 };
-OO.ready(function() {window.pp = OO.Player.create('container_1524368777', 'V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4', playerParam);
+OO.ready(function() {window.pp = OO.Player.create('container_1524368777', 'swN3U0ZjE6PcLw7--1-TrHG9n_neEJJM', playerParam);
 });
+
+
+  function controls() {
+    location.href = "p4.html";
+  }  
+
+  function chromeless() {
+    location.href = "p4_c.html";
+  }  

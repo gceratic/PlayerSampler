@@ -98,3 +98,11 @@
   font-family:sans-serif;
   text-decoration: none;
 }
+
+.vInfo {
+  color: white;
+  display:block;
+  padding: 9px;
+  font-family:monospace;
+  text-decoration: none;
+}

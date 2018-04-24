@@ -1,13 +1,17 @@
+/* Adding external buttons */
+
 var volume = .5;
 var volumeRange = .1;  
+
 function ClickPlay() {
     window.pp.play();
-  }
-  function ClickPause() {
-    window.pp.pause();
-  }
-function setVolume(isUp)
+}
 
+function ClickPause() {
+    window.pp.pause();
+}
+
+function setVolume(isUp)
 
 {
 	if(isUp === true)
@@ -20,6 +24,7 @@ function ClickPlay() {
 		window.pp.setVolume(window.pp.getVolume()-volumeRange);
 	}
 }
+
 function mute()
 {
 	window.pp.mute();
@@ -29,17 +34,19 @@ function unmute()
 {
 	window.pp.unmute();
 }
-  var playerParam = {
-    'pcode':'Jvd2wyOrkZVDS3BJWpnvUwEidYIO',
-    'playerBrandingId':'f1f3a6490d6f480b91d0d152a863d3c5',
-    'autoplay':true,
-    'loop':true,
-    'skin': {
+
+var playerParam = {
+  'pcode':'Jvd2wyOrkZVDS3BJWpnvUwEidYIO',
+  'playerBrandingId':'f1f3a6490d6f480b91d0d152a863d3c5',
+  'autoplay':true,
+  'loop':true,
+  'skin': {
             'config': '../scripts/p1p1.json'
           }
+};
 
-  };
-  OO.ready(function() {window.pp = OO.Player.create('container_1524368773', 'V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4', playerParam);
+OO.ready(function() {window.pp = OO.Player.create('container_1524368773', 'V3MDM0ZjE6VFHuScVibWmSCXWU37sTY4', playerParam);
+
   var startplay = document.getElementById('btnPlay');
   startplay.disabled = false;
   startplay.onclick = ClickPlay;
