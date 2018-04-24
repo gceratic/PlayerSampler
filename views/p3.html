@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Phase 2</title>
+    <title>Phase 3</title>
     <link rel="stylesheet" href="//player.ooyala.com/static/v4/production/skin-plugin/html5-skin.min.css"/>
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <script src="//player.ooyala.com/static/v4/production/core.min.js"></script>
@@ -26,15 +26,14 @@
     <br>
     <br>
     <br>
-      <div>
-        <label for="name">Write the name for the video: </label>
-        <input type="text" id="vidTitle" />
-        <label for="name">Write your API Key: </label>
-        <input type="text" id="vidApiKey" />
-        <label for="name">Write your Signature: </label>
-        <input type="text" id="vidApiSecrete" />
-        <button id="btnTitle" type="button" class="control" onclick="patch()">Update</button>
-      </div>
+      <form action="http://gceratic.000webhostapp.com/P3.php" method="post">
+        <!--look for the code of P3.php file, it's located at the "view" folder of this project, I had to upload the file to another server, due to Github Pages does not support php. -->
+        <div>
+          <label>Write the name for the video: </label>
+          <input type="text" name="a" />
+          <input type="submit" name="submit" id="btnTitle" class="control" value="Update" />
+         </div>
+      </form>
     <footer class="pFooter">
       <a href="../index.html">&#60;--- Home</a>
     </footer>
